@@ -24,5 +24,5 @@ document.getElementById('currency-form').addEventListener('submit',function(even
     // Exibir resultado
 
     const Conversao = document.getElementById('conversao');
-    Conversao.textContent = 'Resultado: $(valorConvertido)';
+    Conversao.textContent = `Resultado: ${valorConvertido}`;
 })
