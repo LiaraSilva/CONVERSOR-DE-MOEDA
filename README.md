@@ -33,5 +33,5 @@ Conhecimento básico de HTML, CSS e JavaScript.
 
 ![gif](gif.gif)
 
-Autor
-[Liara Silva]
+## Autores 📍
+[Liara Silva](https://github.com/LiaraSilva?tab=repositories)
