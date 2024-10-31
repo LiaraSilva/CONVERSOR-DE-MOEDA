@@ -29,7 +29,9 @@ Conhecimento básico de HTML, CSS e JavaScript.
 * script.js: Arquivo JavaScript que contém a lógica da aplicação, incluindo a função de conversão e a interação com o DOM.
 * exchangeRates.json: Arquivo JSON que armazena as taxas de câmbio de forma organizada.
 
+## Resultado
 
+![gif](gif.gif)
 
 Autor
 [Liara Silva]
