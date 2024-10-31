@@ -1,24 +1,35 @@
 # CONVERSOR-DE-MOEDA
 
-# Descrição
+## Descrição
+Este projeto tem como objetivo criar um aplicativo web simples que permite aos usuários converter valores monetários entre diferentes moedas. Utilizando JavaScript, HTML e CSS, o conversor oferece uma interface intuitiva para realizar cálculos de conversão com base em taxas de câmbio pré-definidas.
 
-Essa seção do código JavaScript é responsável por capturar a interação do usuário com o formulário de conversão de moedas e realizar os cálculos necessários para exibir o resultado.
+## Código Exemplo
 
-## Explicação 
+<img src="m.png">
 
-* document.getElementById('currency-form'): Essa linha busca o elemento HTML com o ID "currency-form". Esse elemento é provavelmente um formulário onde o usuário insere o valor a ser convertido e seleciona as moedas.
+## Funcionalidades
+* Conversão de moedas: Permite converter valores entre diversas moedas, com base nas taxas de câmbio configuradas.
+* Interface intuitiva: Possui um design simples e fácil de usar, com campos para inserir o valor e selecionar as moedas.
+* Atualização automática: (Opcional) Pode ser implementado um mecanismo para atualizar as taxas de câmbio periodicamente, utilizando APIs externas.
+## Tecnologias Utilizadas
+* HTML: Estrutura da página e elementos do formulário.
+* CSS: Estilização da página, deixando-a visualmente atraente.
+* JavaScript: Lógica para realizar os cálculos de conversão e interagir com o usuário.
+## Pré-requisitos
+*Um navegador web moderno (Chrome, Firefox, Edge, etc.).
+Conhecimento básico de HTML, CSS e JavaScript.
+### Como Usar
+* Insira o valor: Digite o valor que deseja converter no campo correspondente.
+* Selecione as moedas: Escolha a moeda de origem e a moeda de destino nos menus dropdowns.
+* Clique em "Converter": O resultado da conversão será exibido na área destinada para este fim.
+* Para redefinir: Clique no botão "Reset" para limpar os campos e realizar uma nova conversão.
+### Estrutura do Código
+* index.html: Arquivo principal que contém a estrutura HTML da página, incluindo o formulário e os elementos para exibir o resultado.
+* style.css: Arquivo CSS que contém as regras de estilo para a página.
+* script.js: Arquivo JavaScript que contém a lógica da aplicação, incluindo a função de conversão e a interação com o DOM.
+* exchangeRates.json: Arquivo JSON que armazena as taxas de câmbio de forma organizada.
 
-* .addEventListener('submit', function(event) { ... }): Adiciona um "ouvinte de eventos" ao formulário. Isso significa que, sempre que o usuário clicar no botão de enviar desse formulário (ou pressionar Enter), a função dentro do addEventListener será executada.
 
-* event.preventDefault();: Quando um formulário é enviado, normalmente a página é recarregada. Essa linha evita esse comportamento padrão, permitindo que a conversão seja feita sem recarregar a página.
 
-* const amount = parseFloat(document.getElementById('amount').value);: Busca o valor digitado no campo com o ID "amount" (provavelmente um input de texto) e o converte para um número de ponto flutuante usando parseFloat.
-
-* const fromCurrency = document.getElementById('from-currency').value; e const toCurrency = document.getElementById('to-currency').value;: Obtém o valor selecionado nos menus dropdown com os IDs "from-currency" e "to-currency", respectivamente. Esses valores representam as moedas de origem e destino.
-
-* const conversionRate = exchangeRates[fromCurrency][toCurrency];: Busca a taxa de câmbio correspondente às moedas selecionadas no objeto exchangeRates. Por exemplo, se o usuário escolheu converter de dólar americano (USD) para euro (EUR), essa linha buscará exchangeRates['USD']['EUR'].
-
-* const convertedAmount = (amount * conversionRate).toFixed(2);: Multiplica o valor a ser convertido pela taxa de câmbio e arredonda o resultado para duas casas decimais usando toFixed(2)
-
-* document.getElementById('result').textContent = ...: Atualiza o conteúdo do elemento HTML com o ID "result" (provavelmente uma div ou span) para mostrar o resultado da conversão. A string dentro do textContent formata a saída para mostrar o valor original, a moeda de origem, o valor convertido e a moeda de destino.
-
+Autor
+[Liara Silva]
