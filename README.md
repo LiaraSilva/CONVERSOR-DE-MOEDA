@@ -4,7 +4,7 @@
 
 Essa seção do código JavaScript é responsável por capturar a interação do usuário com o formulário de conversão de moedas e realizar os cálculos necessários para exibir o resultado.
 
-## Explcação 
+## Explicação 
 
 * document.getElementById('currency-form'): Essa linha busca o elemento HTML com o ID "currency-form". Esse elemento é provavelmente um formulário onde o usuário insere o valor a ser convertido e seleciona as moedas.
 
