@@ -4,18 +4,7 @@
 
 Essa seção do código JavaScript é responsável por capturar a interação do usuário com o formulário de conversão de moedas e realizar os cálculos necessários para exibir o resultado.
 
-## A Estrutura exchangeRates
-O coração do código é o objeto exchangeRates. Ele armazena as taxas de câmbio entre diferentes moedas.
-
-* Como funciona:
-Chaves: Cada chave do objeto representa uma moeda (por exemplo, "USD" para dólar americano).
-Valores: O valor associado a cada chave é outro objeto que contém as taxas de conversão para outras moedas.
-
-## Exemplo:
-
-exchangeRates['USD']['EUR'] retorna a taxa de câmbio para converter dólares americanos em euros.
-O Formulário de Conversão
-O código JavaScript interage com um formulário HTML que provavelmente tem campos para:
+## Explcação 
 
 * document.getElementById('currency-form'): Essa linha busca o elemento HTML com o ID "currency-form". Esse elemento é provavelmente um formulário onde o usuário insere o valor a ser convertido e seleciona as moedas.
 
